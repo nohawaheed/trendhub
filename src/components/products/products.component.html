@@ -65,11 +65,11 @@
         </div>
       </div>
     </div>
-    }@empty {
+    }@empty { @if(!isLoading){
     <div class="d-flex justify-content-center align-items-center">
       {{ errorMessage }}
     </div>
-    }
+    } }
   </div>
 </div>
 }
